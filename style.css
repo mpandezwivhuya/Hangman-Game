@@ -1,0 +1,113 @@
+.game-header{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.game-figure{
+    border: 4px solid blue;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.game-figure .header{
+    text-align: center;
+    color: red;
+}
+.game-figure .line{
+    width: 350px;
+    height: 4px;
+    background-color:black;
+       
+}
+
+.game-figure #floor{
+   
+    position: absolute;
+    bottom: 0;
+
+}
+.game-figure #vertical-rod{
+    
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 0;
+    right: 315px;
+}
+.game-figure #horizontal-rod{
+    width:150px;
+    position: absolute;
+    top:150px;
+    left: 185px;
+}
+.game-figure #rope{
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    position:absolute;
+    width:40px;
+    top:190px;
+    right:169px;
+    background-color: green;   
+}
+.person{
+    position: absolute;
+    right:138px;
+    top: 192px;
+}
+.person .person-head{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.person #person-body{
+    width: 140px;
+    height:4px;
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    position:absolute;
+    background-color:brown;
+    top:192px;
+    right:30px;
+}
+.person .person-left-hand{
+    width:70px;
+    height:4px;
+    background-color: purple;
+    transform-origin: bottom right;
+    transform: rotate(65deg);
+    position:absolute;
+    top:145px;
+    right:0.1px;   
+}
+.person #person-right-hand{
+    width:70px;
+    height:4px;
+    background-color: purple;
+    transform-origin: bottom right;
+    transform: rotate(115deg);
+    position:absolute;
+    top:145px;
+    right:60px; 
+}
+.person .person-left-leg{
+    width:70px;
+    height:4px;
+    background-color: yellow;
+    transform-origin: bottom right;
+    transform: rotate(65deg);
+    position:absolute;
+    top:255px;
+    right:0.1px;   
+}
+.person #person-right-leg{
+    width:70px;
+    height:4px;
+    background-color: yellow;
+    transform-origin: bottom right;
+    transform: rotate(115deg);
+    position:absolute;
+    top:255px;
+    right:60px;   
+}
